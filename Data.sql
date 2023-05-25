@@ -538,3 +538,17 @@ VALUES
     NULL,       -- MSSV - nchar(10)
     NULL        -- MCB - nchar(10)
     )
+
+	ALTER TABLE dbo.PhieuMuon WITH CHECK ADD CONSTRAINT FK_PhieuMuon_Docgia FOREIGN KEY(MaDocGiaMuon) REFERENCES dbo.Docgia(MaDocGia)
+	GO
+    ALTER TABLE dbo.PhieuMuon CHECK CONSTRAINT FK_PhieuMuon_Docgia
+	GO
+	ALTER TABLE dbo.PhieuMuon WITH CHECK ADD CONSTRAINT FK_PhieuMuon_NhanVien FOREIGN KEY(MaNVLapPhieuMuon) REFERENCES dbo.NhanVien(MaNV)
+	GO
+    ALTER TABLE dbo.PhieuMuon CHECK CONSTRAINT FK_PhieuMuon_NhanVien
+	Go
+	ALTER TABLE dbo.PhieuMuon WITH CHECK ADD CONSTRAINT FK_PhieuMuon_Sach FOREIGN KEY(MaSachMuon) REFERENCES dbo.Sach(MaSach)
+	GO
+    ALTER TABLE dbo.PhieuMuon CHECK CONSTRAINT FK_PhieuMuon_Sach
+	GO
+    //tới phiếu phạt
