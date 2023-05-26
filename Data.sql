@@ -551,4 +551,20 @@ VALUES
 	GO
     ALTER TABLE dbo.PhieuMuon CHECK CONSTRAINT FK_PhieuMuon_Sach
 	GO
-    //tới phiếu phạt
+    ALTER TABLE dbo.PhieuPhat WITH CHECK ADD CONSTRAINT FK_PhieuPhat_NhanVien FOREIGN KEY(MaNVLapPhieuPhat) REFERENCES dbo.NhanVien(MaNV)
+	GO
+    ALTER TABLE dbo.PhieuPhat CHECK CONSTRAINT FK_PhieuPhat_NhanVien
+	Go
+	ALTER TABLE dbo.PhieuPhat WITH CHECK ADD CONSTRAINT FK_PhieuPhat_PhieuMuon FOREIGN KEY(MaPhieuMuon) REFERENCES dbo.PhieuMuon(MaPhieuMuon)
+	GO
+    ALTER TABLE dbo.PhieuPhat CHECK CONSTRAINT FK_PhieuPhat_PhieuMuon
+	GO
+    ALTER TABLE dbo.PhieuTra WITH CHECK ADD CONSTRAINT FK_PhieuTra_NhanVien FOREIGN KEY(MaNVLapPhieuTra) REFERENCES dbo.NhanVien(MaNV)
+	GO
+    ALTER TABLE dbo.PhieuTra CHECK CONSTRAINT FK_PhieuTra_NhanVien
+	GO
+    ALTER TABLE dbo.PhieuTra WITH CHECK ADD CONSTRAINT FK_PhieuTra_PhieuMuon FOREIGN KEY(MaPhieuMuon) REFERENCES dbo.PhieuMuon(MaPhieuMuon)
+	GO
+	ALTER TABLE dbo.PhieuTra CHECK CONSTRAINT FK_PhieuTra_PhieuMuon
+	GO
+    
