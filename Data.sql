@@ -146,7 +146,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0004',       -- MaDocGia - nchar(10)
-    N'TRẦN BÌNH LIÊU',       -- HoTen - nvarchar(50)
+    N'Trần Bình Liêu',       -- HoTen - nvarchar(50)
     '2001-06-30', -- NgaySinh - date
     N'108 CAM ĐÀO MỘC, P.4, Q.8, TPHCM',       -- DiaChi - nvarchar(100)
     N'0988807188',       -- Sdt - nchar(20)
@@ -167,7 +167,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0005',       -- MaDocGia - nchar(10)
-    N'NGUYỄN HIỆP LINH',       -- HoTen - nvarchar(50)
+    N'Nguyễn Hiệp Linh',       -- HoTen - nvarchar(50)
     '2002-09-12', -- NgaySinh - date
     N'q79A5/2 Nguyễn Kiệm, Gò Vấp, TPHCM',       -- DiaChi - nvarchar(100)
     N'0977412102',       -- Sdt - nchar(20)
@@ -188,7 +188,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0006',       -- MaDocGia - nchar(10)
-    N'NGUYỄN THỊ THÚY KIỀU',       -- HoTen - nvarchar(50)
+    N'Nguyễn Thị Thúy Kiều',       -- HoTen - nvarchar(50)
     '1999-08-06', -- NgaySinh - date
     N'Hưng Đạo, Hương Nguyên, Nghệ An',       -- DiaChi - nvarchar(100)
     N'0376183576',       -- Sdt - nchar(20)
@@ -209,7 +209,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0007',       -- MaDocGia - nchar(10)
-    N'PHẠM TẤN KIỀU',       -- HoTen - nvarchar(50)
+    N'Phạm Tấn Kiều',       -- HoTen - nvarchar(50)
     '2003-03-22', -- NgaySinh - date
     N'Ấp Bình Tả I, Xã Đức Hòa Hạ, huyện Đức Hòa, Tỉnh Long An',       -- DiaChi - nvarchar(100)
     N'0988775511',       -- Sdt - nchar(20)
@@ -335,7 +335,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0013',       -- MaDocGia - nchar(10)
-    N'NGUYỄN THẾ LỢI',       -- HoTen - nvarchar(50)
+    N'Nguyễn Thế Lợi',       -- HoTen - nvarchar(50)
     '1990-01-29', -- NgaySinh - date
     N'130 Âu Cơ, F.10, Q.Tân Bình,TPHCM ',       -- DiaChi - nvarchar(100)
     N'0975371451',       -- Sdt - nchar(20)
@@ -377,7 +377,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0015',       -- MaDocGia - nchar(10)
-    N'PHẠM ĐÌNH LUÂN',       -- HoTen - nvarchar(50)
+    N'Phạm Đình Luân',       -- HoTen - nvarchar(50)
     '1986-04-30', -- NgaySinh - date
     N'225 Tô Hiến Thành, P.13, Q.10, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0903113887',       -- Sdt - nchar(20)
@@ -398,7 +398,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0016',       -- MaDocGia - nchar(10)
-    N'HUỲNH VĂN MINH',       -- HoTen - nvarchar(50)
+    N'Huỳnh Văn Minh',       -- HoTen - nvarchar(50)
     '1975-07-11', -- NgaySinh - date
     N'314 Phạm Hữu Lầu, Q.7, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0983777391',       -- Sdt - nchar(20)
@@ -419,7 +419,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0017',       -- MaDocGia - nchar(10)
-    N'PHÙNG THỊ KIM NGÂN',       -- HoTen - nvarchar(50)
+    N'Phùng Thị Kim Ngân',       -- HoTen - nvarchar(50)
     '1988-09-21', -- NgaySinh - date
     N'277/16 Trường Chinh, Q.Tân Bình, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0907647247',       -- Sdt - nchar(20)
@@ -461,7 +461,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0019',       -- MaDocGia - nchar(10)
-    N'TÔ ANH NGHĨA',       -- HoTen - nvarchar(50)
+    N'Tô Anh Nghĩa',       -- HoTen - nvarchar(50)
     '1989-04-12', -- NgaySinh - date
     N'209 Nguyễn Tri Phương, P.5, Q.9, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0966254367',       -- Sdt - nchar(20)
@@ -482,7 +482,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0020',       -- MaDocGia - nchar(10)
-    N'TRƯƠNG TIẾN NGỌC',       -- HoTen - nvarchar(50)
+    N'Trương Tiến Ngọc',       -- HoTen - nvarchar(50)
     '1996-04-30', -- NgaySinh - date
     N'108/8 Hồng Lạc, P.11, Tân BÌnh, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0125589657',       -- Sdt - nchar(20)
@@ -503,7 +503,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0021',       -- MaDocGia - nchar(10)
-    N'LÊ VŨ NGUYÊN',       -- HoTen - nvarchar(50)
+    N'Lê Vũ Nguyên',       -- HoTen - nvarchar(50)
     '1980-11-20', -- NgaySinh - date
     N'83 Bùi Hữu Nghĩa, P.5, Q.5, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0364589657',       -- Sdt - nchar(20)
@@ -524,7 +524,7 @@ INSERT dbo.Docgia
 )
 VALUES
 (   N'DG0022',       -- MaDocGia - nchar(10)
-    N'PHẠM ÁNH NGUYỆT',       -- HoTen - nvarchar(50)
+    N'Phạm Ánh Nguyệt',       -- HoTen - nvarchar(50)
     '1979-03-15', -- NgaySinh - date
     N'51/26 Nguyễn Trãi, F2, Q.5, TPHCM ',       -- DiaChi - nvarchar(100)
     N'0915569364',       -- Sdt - nchar(20)
@@ -567,4 +567,3 @@ VALUES
 	GO
 	ALTER TABLE dbo.PhieuTra CHECK CONSTRAINT FK_PhieuTra_PhieuMuon
 	GO
-    
